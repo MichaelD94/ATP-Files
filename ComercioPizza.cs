@@ -16,7 +16,7 @@ namespace COMERCIO_VERA
             Console.WriteLine("Qual pizza você deseja comprar hoje?\nConsulte a tabela abaixo para se informar");
             Console.WriteLine("\t1- Frango / Tamanho 25cm\n\t2- Frango / Tamanho 30cm\n\t3- Frango / Tamanho 35cm\n\t4- Calabresa / Tamanho 25cm\n\t5- Calabresa / Tamanho 30cm\n\t6- Calabresa / Tamanho 35cm\n\t7- Presunto / Tamanho 25cm\n\t8- Presunto / Tamanho 30cm\n\t9- Presunto / Tamanho 35cm");
             pizzas = Convert.ToInt16(Console.ReadLine());
-            
+            // Comentario
             switch (pizzas)
             {
                 case 1:
