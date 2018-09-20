@@ -20,7 +20,6 @@ namespace Prova
             double p = Convert.ToDouble(Console.ReadLine());
             double resultado = x * (p / 100);
             Console.WriteLine("Resultado da porcentagem do primeiro numero pelo segundo " + resultado);
-// oloko
 
             Console.WriteLine("Digite mais 2 valores");
             double a = Convert.ToDouble(Console.ReadLine());
